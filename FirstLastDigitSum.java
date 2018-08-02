@@ -1,7 +1,7 @@
 package com.example.sousa.sumfirstandlastdigit;
 /*
 write method sumFirstAndLastDigitSum(int number)
-if he number is negative have the method return 0
+if the number is negative have the method return 0
  */
 
 public class FirstLastDigitSum {
