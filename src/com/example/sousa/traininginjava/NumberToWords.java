@@ -72,8 +72,8 @@ public class NumberToWords {
 
     public static int reverse(int number) {
         int reversedNumber = 0;
-        int numOfDigits = getDigitCount(number);
         int posConv = Math.abs(number);
+        int numOfDigits = getDigitCount(posConv);
 
         for (int i = numOfDigits; i > 0; i--) {
             reversedNumber = reversedNumber * 10 + posConv % 10;

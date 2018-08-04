@@ -4,8 +4,8 @@ public class DiagonalStar {
 
     public static void main(String[] args) {
         printSquareStar(8);
-//        printSquareStar(-1);
-//        printSquareStar(5);
+        printSquareStar(-1);
+        printSquareStar(5);
     }
 
     public static void printSquareStar(int number) {
