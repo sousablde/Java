@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="254e37b3-5c5b-4652-bdf5-3a4fda4bd707" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sousa/inheritance/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sousa/inheritance/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sousa/inheritance/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClassesConstructorsInheritance.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ClassesConstructorsInheritance.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sousa/inheritance/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sousa/inheritance/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -43,13 +38,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="3535" />
+          <entry key="java" value="3774" />
           <entry key="txt" value="107" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3535" />
+          <entry key="JAVA" value="3774" />
           <entry key="PLAIN_TEXT" value="107" />
         </counts>
       </usages-collector>
@@ -57,11 +52,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/sousa/inheritance/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="293">
-              <caret line="23" selection-start-line="23" selection-end-line="23" />
+            <state relative-caret-position="208">
+              <caret line="34" column="36" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -70,7 +65,7 @@
         <entry file="file://$PROJECT_DIR$/src/com/sousa/inheritance/Animal.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
-              <caret line="16" column="56" selection-start-line="16" selection-start-column="56" selection-end-line="16" selection-end-column="56" />
+              <caret line="25" column="58" selection-start-line="25" selection-start-column="58" selection-end-line="25" selection-end-column="58" />
               <folding>
                 <element signature="e#199#200#0" expanded="true" />
                 <element signature="e#226#227#0" expanded="true" />
@@ -97,16 +92,16 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/sousa/inheritance/Dog.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="106">
-              <caret line="48" selection-start-line="48" selection-end-line="53" selection-end-column="5" />
+            <state relative-caret-position="276">
+              <caret line="56" column="26" lean-forward="true" selection-start-line="56" selection-start-column="26" selection-end-line="56" selection-end-column="26" />
               <folding>
-                <element signature="e#757#758#0" expanded="true" />
-                <element signature="e#793#794#0" expanded="true" />
-                <element signature="e#1183#1184#0" expanded="true" />
-                <element signature="e#1219#1220#0" expanded="true" />
+                <element signature="e#769#770#0" expanded="true" />
+                <element signature="e#824#825#0" expanded="true" />
+                <element signature="e#1329#1330#0" expanded="true" />
+                <element signature="e#1390#1391#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -131,8 +126,8 @@
         <option value="$PROJECT_DIR$/src/com/example/sousa/trainingjava/Main.java" />
         <option value="$PROJECT_DIR$/src/com/example/sousa/trainingjava/VipCustomer.java" />
         <option value="$PROJECT_DIR$/src/com/sousa/inheritance/Animal.java" />
-        <option value="$PROJECT_DIR$/src/com/sousa/inheritance/Main.java" />
         <option value="$PROJECT_DIR$/src/com/sousa/inheritance/Dog.java" />
+        <option value="$PROJECT_DIR$/src/com/sousa/inheritance/Main.java" />
       </list>
     </option>
   </component>
@@ -185,7 +180,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1533589462441" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1533589700914" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
@@ -259,7 +254,14 @@
       <option name="project" value="LOCAL" />
       <updated>1533587061426</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Creating classes and constructors, calling inception (calling constructor from inside constructor">
+      <created>1533589516020</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1533589516020</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -369,7 +371,7 @@
     <entry file="file://$PROJECT_DIR$/src/com/sousa/inheritance/Animal.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
-          <caret line="16" column="56" selection-start-line="16" selection-start-column="56" selection-end-line="16" selection-end-column="56" />
+          <caret line="25" column="58" selection-start-line="25" selection-start-column="58" selection-end-line="25" selection-end-column="58" />
           <folding>
             <element signature="e#199#200#0" expanded="true" />
             <element signature="e#226#227#0" expanded="true" />
@@ -395,23 +397,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sousa/inheritance/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/com/sousa/inheritance/Dog.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="276">
+          <caret line="56" column="26" lean-forward="true" selection-start-line="56" selection-start-column="26" selection-end-line="56" selection-end-column="26" />
+          <folding>
+            <element signature="e#769#770#0" expanded="true" />
+            <element signature="e#824#825#0" expanded="true" />
+            <element signature="e#1329#1330#0" expanded="true" />
+            <element signature="e#1390#1391#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sousa/inheritance/Dog.java">
+    <entry file="file://$PROJECT_DIR$/src/com/sousa/inheritance/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="48" selection-start-line="48" selection-end-line="53" selection-end-column="5" />
-          <folding>
-            <element signature="e#757#758#0" expanded="true" />
-            <element signature="e#793#794#0" expanded="true" />
-            <element signature="e#1183#1184#0" expanded="true" />
-            <element signature="e#1219#1220#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="208">
+          <caret line="34" column="36" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
         </state>
       </provider>
     </entry>

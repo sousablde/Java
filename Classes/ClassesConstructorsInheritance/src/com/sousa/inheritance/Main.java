@@ -6,8 +6,8 @@ public class Main {
 
         Dog dog = new Dog("yorkie", 8, 20, 2, 4, 1, 20, "long silky");
         dog.eat();
-        //dog.walk();
-        dog.run();
+        dog.walk();
+        //dog.run();
 
 
     }
@@ -28,5 +28,15 @@ Dog.run() called
 dog.move() called
 Dog.moveLegs was called
 Animal is moving at: 10
+
+output using dog.walk
+//even with a move method in the DOg class
+//since it has super keyword it tells the compiler
+//to check for it in the super class animal
+dog.eat() called
+Dog.chew() called
+Anima.eat() called
+Dog.walk() called
+Animal is moving at: 5
 
  */
