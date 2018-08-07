@@ -9,6 +9,18 @@ AS mentioned above, changing gears, increasing/decreasing speed should be includ
 For you specific type of vehicle you will want to add something specific for that type of car.
  */
 
+/*
+second challenge
+Create a single room of a house using composition.
+Think about the things that should be included in the room.
+Maybe physical parts of the house but furniture as well
+Add at least one method to access an object via a getter and
+then that objects public method as you saw in the previous video
+then add at least one method to hide the object e.g. not using a getter
+but to access the object used in composition within the main class
+like you saw in this video.
+ */
+
 public class Main {
     public static void main(String[] args) {
         Opel opel = new Opel(36);
@@ -25,6 +37,24 @@ public class Main {
         thePC.getMonitor().drawPixelAt(1500, 1200, "red");
         thePC.getMotherboard().loadProgram("Windows 1.0");
         thePC.getTheCase().pressPowerButton();
+
+        Window window1 = new Window(true);
+        Window window2 = new Window(false);
+
+        Bed bed = new Bed("Modern", 3, 2);
+
+        Lamp lamp = new Lamp("classic", false);
+
+        Bedroom bedroom = new Bedroom("My Bedrom", window1, window2, bed, lamp);
+        bedroom.makeBed();
+
+        bedroom.getLamp().turnOn();
+        window1.setOpen(true);
+        window1.isOpen();
+
+
+
+
 
     }
 }
