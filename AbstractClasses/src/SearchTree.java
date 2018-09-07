@@ -1,8 +1,4 @@
-package com.timbuchalka;
 
-/**
- * Created by dev on 15/10/2015.
- */
 public class SearchTree implements NodeList {
 
     private ListItem root = null;
