@@ -43,4 +43,11 @@ public class Main {
 }
 /*
 output
+-22
+-15
+7
+9
+10
+35
+40
  */
