@@ -30,6 +30,8 @@ we create a temp array large enough to hold all the elements we are merging
 we set i to the first index of the left array and j to the first index of the right array
 compare left[i] to right[j] if left is smaller copy to temp array and increment i by one
 if right is smaller copy to the temp array and increment by j
+
+stable algorithm
  */
 
 public class Main {
