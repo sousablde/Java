@@ -72,6 +72,7 @@ public class Main {
     }
 
     private static int hash(int value) {//ideally we mod based on the length of the array
+        //if there are negative numbers use: return Math.abs(value%10);
         return value / 10 % 10;
     }
 
