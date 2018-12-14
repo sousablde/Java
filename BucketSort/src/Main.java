@@ -71,7 +71,7 @@ public class Main {
         }
     }
 
-    private static int hash(int value) {
+    private static int hash(int value) {//ideally we mod based on the length of the array
         return value / 10 % 10;
     }
 
