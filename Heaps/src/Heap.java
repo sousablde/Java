@@ -8,9 +8,9 @@ public class Heap {
         heap = new int[capacity];
     }
 
-    /*
+    /******************
     Inserting into heap
-     */
+     *****************/
     public void insert(int value) {
         if (isFull()) {
             //no need to resize array, just throw exception
@@ -42,9 +42,10 @@ public class Heap {
         heap[index] = newValue;
     }
 
-    /*
+    /*********************
     deleting from the heap
-     */
+     ********************/
+
     public int getChild(int index, boolean left) {
         //if we want the left child we add one, if we want the right child we
         //add 2
@@ -106,6 +107,18 @@ public class Heap {
             }
         }
 
+    }
+
+    /*************************
+     *
+     * Peek: look at what is at the root of the heap
+     * just returns heap 0 if the heap is empty
+     ************************/
+    public int peek() {
+        if (isEmpty()) {
+            throw new IndexOutOfBoundsException("The heap is empty");
+        }
+        return heap[0];
     }
 
     public boolean isFull() {

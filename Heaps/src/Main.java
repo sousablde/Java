@@ -36,16 +36,16 @@ would fo into array[1] and right child would go to array[2]
 
      parent  = floor((i-1)/2)
 
-Insert into Heap
+Insert into Heap - log(n)
 -always add new items to the end of the array
--heapify
+-heapify- logn swaps
 -compare new items against its parent
 - if item greater than its parent swap it with the parent
 
-Deleting from a heap
+Deleting from a heap- we need to find what to replace so O(n)
 -must choose replacement value
 -tree must remain complete
--heap must be heapified after each deletion
+-heap must be heapified after each deletion-worst case is O(logn)
 -when replacement is bigger than a parent and we are dealing with a max heap
 fix heap above.
 
@@ -75,6 +75,8 @@ public class Main {
         heap.delete(1);
 
         heap.printHeap();
+
+        System.out.println(heap.peek());
 
     }
 }
