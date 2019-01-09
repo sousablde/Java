@@ -114,6 +114,7 @@ public class Heap {
      * Peek: look at what is at the root of the heap
      * just returns heap 0 if the heap is empty
      ************************/
+    
     public int peek() {
         if (isEmpty()) {
             throw new IndexOutOfBoundsException("The heap is empty");
