@@ -41,10 +41,40 @@ Insert into Heap
 -heapify
 -compare new items against its parent
 - if item greater than its parent swap it with the parent
+
+Deleting from a heap
+-must choose replacement value
+-tree must remain complete
+-heap must be heapified after each deletion
+-when replacement is bigger than a parent and we are dealing with a max heap
+fix heap above.
+
+-fixing the heap above-same as with the insertion swap the replacement value
+with the parent
+-fix the heap bellow swap the replacement value with the larger of its
+2 children
+-repeat these until both cases are in their correct positions
+-we either need to fic up or down not both
  */
 public class Main {
 
     public static void main(String[] args) {
+        Heap heap = new Heap(10);
+
+        heap.insert(80);
+        heap.insert(75);
+        heap.insert(60);
+        heap.insert(68);
+        heap.insert(55);
+        heap.insert(40);
+        heap.insert(53);
+        heap.insert(67);
+
+        heap.printHeap();
+
+        heap.delete(1);
+
+        heap.printHeap();
 
     }
 }
