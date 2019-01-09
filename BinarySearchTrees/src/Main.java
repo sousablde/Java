@@ -58,11 +58,28 @@ public class Main {
         intTree.insert(22);
         intTree.insert(32);
 
+        System.out.println("Printing Inorder");
         intTree.traverseInorder();
+        System.out.println("Printing Postorder");
+        intTree.traversePostorder();
+        System.out.println("Printing Preorder");
+        intTree.traversePreorder();
+
+
 
         System.out.println(intTree.get(27));
         System.out.println(intTree.min());
         System.out.println(intTree.max());
+
+        intTree.delete(15);
+        intTree.traverseInorder();
+        System.out.println();
+
+        intTree.traverseInorder();
+        System.out.println();
+        intTree.delete(25);
+        intTree.traverseInorder();
+        System.out.println();
 
 
     }
