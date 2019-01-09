@@ -38,6 +38,11 @@ Inserting in BST:
 -past insertions will have to be compared to the parent to make
 sure smaller values are at the left and bigger values are at the right
 
+The cases for deleting a node:
+-when a node is a leaf-just remove from tree
+-when a node has one child-the child replaces node we are deleting
+-when a node has 2 children
+
  */
 public class Main {
 
@@ -54,6 +59,11 @@ public class Main {
         intTree.insert(32);
 
         intTree.traverseInorder();
+
+        System.out.println(intTree.get(27));
+        System.out.println(intTree.min());
+        System.out.println(intTree.max());
+
 
     }
 }
